@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    background: hsl(204, 43%, 93%);
-    /* background: red; */
+    /* background: hsl(204, 43%, 93%); */
+    background: powderblue;
     display: grid;
     place-items: center;
     min-height: 100vh;
