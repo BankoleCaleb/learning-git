@@ -1,0 +1,41 @@
+body > div {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.container div {
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2px;
+    /* border-radius: 50%; */
+    /* position: absolute;
+
+    animation-name: fife;
+    animation-duration: 9s; */
+    animation-name: somto-animation;
+    animation-duration: 5s;
+}
+
+div.container div:nth-child(2) {
+    animation-timing-function: ease-in;
+}
+
+div.container div:nth-child(3) {
+    animation-timing-function: ease-in-out;
+}
+div.container div:nth-child(4) {
+    animation-timing-function: linear;
+}
+
+
+@keyframes somto-animation {
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 300px;
+    }
+}
